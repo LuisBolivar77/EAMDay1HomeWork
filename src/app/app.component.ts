@@ -10,5 +10,13 @@ export class AppComponent {
   author = 'Luis Bolivar';
   count = 0;
   imgSource = './../favicon.ico';
-  enable = 0;
+  enable = true;
+
+  deshabilitarInput() {
+    if (this.enable === false ) {
+      this.enable = true;
+    } else {
+      this.enable = false;
+    }
+  }
 }

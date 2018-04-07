@@ -5,7 +5,8 @@
     <app-my-component></app-my-component>
     <h1>{{count}}</h1>
     <img [src]="imgSource">
-    <input >
+    <input [disabled]="enable">
+    <button (click)="deshabilitarInput()"></button>
   </h1>
 </div>
 
